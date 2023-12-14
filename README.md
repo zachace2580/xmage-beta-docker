@@ -2,7 +2,7 @@
 
 This Project automates the creation of Docker Images for beta versions of [XMage](https://github.com/magefree/mage) Server.
 
-You can find the Images at Docker Hub: https://hub.docker.com/r/goesta/xmage-beta
+You can find the Images at Docker Hub: https://hub.docker.com/r/zachace/xmage-beta
 
 All Images are taged with the version number. So you can run older beta versions by including the tag when creating the container. You can see all available tags on the dockerhub page or on our github page under tags.
 
@@ -31,7 +31,7 @@ If you like to preserve the database during updates and restarts you can mount a
     version: '2'
     services:
     mage:
-        image: goesta/xmage-beta
+        image: zachace/xmage-beta
         ports:
          - "17171:17171"
          - "17179:17179"
