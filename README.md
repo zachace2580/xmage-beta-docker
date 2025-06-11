@@ -45,11 +45,6 @@ If you like to preserve the database during updates and restarts you can mount a
         volumes:
          - xmage-db:/xmage/db
          - xmage-saved:/xmage/saved
-    volumes:
-        xmage-db:
-            driver: local
-        xmage-saved:
-            driver: local
 
 ## Client
 
