@@ -48,3 +48,4 @@ If you like to preserve the database during updates and restarts you can mount a
 
 ## Client
 You can download the latest beta version of xmage at http://xmage.today 
+
