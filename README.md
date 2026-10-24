@@ -24,7 +24,7 @@ You should always set `XMAGE_DOCKER_SERVER_ADDRESS` to the same value as `--add-
 If you dont have a Domain you can use a service like http://nip.io.
 
 If you like to preserve the database during updates and restarts you can mount a volume at /xmage/db
-
+  
 
 ## Example Docker Compose file
 
